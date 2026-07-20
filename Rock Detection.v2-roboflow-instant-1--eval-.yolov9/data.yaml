@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Fossilized rock', 'Metamorphic', 'Sedimentary']
+
+roboflow:
+  workspace: gubmrt-k0qoz
+  project: rock-detection-vosuz
+  version: 2
+  license: MIT
+  url: https://universe.roboflow.com/gubmrt-k0qoz/rock-detection-vosuz/dataset/2
